@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Documentation Website</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="manifest" href="./manifest.json">
 </head>
 <body>
@@ -104,6 +105,11 @@ Javascript identifiers must start with a letter. Underscore dollar sign subseque
     </article>
 </section>
     </main>
+    <script>
+        if (typeof navigator.serviceWorker !== 'undefined') {
+          navigator.serviceWorker.register('sw.js')
+        }
+      </script>
 </body>
 </html>
 
