@@ -2,10 +2,10 @@
     "background_color": "#ffffff",
     "dir": "ltr",
     "display": "standalone",
-    "name": "Project of Javascript",
+    "name": "8th Project of Javascript",
     "orientation": "any",
     "scope": "/",
-    "short_name": "Javascript",
+    "short_name": "Javascript 8",
     "start_url": "/",
     "theme_color": "#ffffff",
     "icons": [
